@@ -1,0 +1,667 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+nav {
+    clear: both;
+}
+.footer {
+	text-align: center;
+	position: fixed;
+}
+.navbar-fixed-top {
+	color: black;
+}
+.stickylogo {
+    position: sticky;
+    width: 4%;
+    margin-top: -47px;
+    top: 28%;
+	z-index: 1;
+}
+
+/* HOME PAGE */
+body {
+	background-image: url("../images/background.png");
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	background-size: contain;
+	height: auto;
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+	opacity: 1;
+}
+.stickylogo {
+    width: 6%;
+    margin-top: -73px;
+    top: 2%;
+    padding-top: 0px;
+    margin-left: 1090px;
+    margin-bottom: -57px;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	margin-top: -30%;
+}
+* {
+	box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 5px 12px;
+}
+
+/* Clearfix (clear floats) */
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*images*/
+.blueban {
+	display: inline-block;
+	width: 150%;
+	float: left;
+	padding: 5px;
+	margin-right: 50%;
+}
+.line {
+	display: inline-block;
+	width: 150%;
+	clear: right;
+	margin-left: 50%;
+	padding: 10px;
+}
+.food {
+	display: inline-block;
+	width: 150%;
+	float: left;
+	padding: 5px;
+	margin-right: 50%;
+}
+.camp {
+	display: inline-block;
+	width: 150%;
+	clear: right;
+	margin-left: 50%;
+	padding: 10px;
+}
+.ticketban {
+	display: inline-block;
+	width: 150%;
+	float: left;
+	padding: 5px;
+	margin-right: 50%;
+}
+.histban {
+	display: inline-block;
+	width: 47.8%;
+	clear: right;
+	margin-left: 50%;
+	margin-top: -34.4%;
+	padding: 10px;
+}
+.mapban {
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+}
+/* LINE UP */
+.logolineup {
+	width: 20%;
+	margin: 3% 0% 0 80%;
+	position: sticky;
+}
+
+.poster {
+	float: none;
+	display: block;
+	margin-top: -15%;
+	margin-left: auto;
+  margin-right: auto;
+	
+}
+.footer {
+  display: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  clear: both;
+  position: fixed;
+
+}
+h1 {
+   font-family: 'Tajawal', sans-serif;
+	margin-top: -106%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	position: sticky;
+}
+
+.map {
+	width: 80%;
+	margin-top: -19%;
+	margin-left: 3%;
+}
+#Bands {
+	display: block;
+	margin-top: 119%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 90%;
+	background-color: #beb6db;
+	padding: 75px;
+}
+.band1975 {
+	display: inline-block;
+	width: 150%;
+	float: left;
+	padding: 5px;
+	margin-left: 50%;
+}
+.sbutton {
+	width: 25%;
+	float: left;
+	margin-right: 59%;
+}
+.bandfm {
+	display: inline-block;
+	width: 150%;
+	padding: 5px;
+	margin-right: 50%;
+	clear: right;
+}
+.sbutton2 {
+	width: 25%;
+	float: left;
+	margin-right: 59%;
+}
+
+.bandhoz {
+	display: inline-block;
+	width: 150%;
+	float: left;
+	padding: 5px;
+	margin-left: 50%;
+}
+.sbutton3 {
+	width: 25%;
+	float: left;
+	margin-right: 59%;
+}
+
+.bandstokes {
+	display: inline-block;
+	width: 150%;
+	clear: right;
+	padding: 5px;
+	margin-right: 50%;
+}
+.sbutton4 {
+	width: 25%;
+	float: left;
+	margin-right: 59%;
+}
+body {
+    background-image: url(../images/background.png);
+    background-attachment: fixed;
+    background-size: 100% 340%;
+    background-position: 22% 18%;
+    background-repeat: no-repeat;
+}
+p {
+	font-family: 'Tajawal', sans-serif;
+}
+.bio1975 {
+    float: left;
+    display: block;
+    font-size: 160%;
+    color: white;
+    margin-left: -36%;
+    margin-top: 4%;
+    top: -33%;
+}
+.fmbio {
+	float: right;
+    display: block;
+    font-size: 160%;
+    color: white;
+    margin-right: 36%;
+    margin-top: 5%;
+    top: -33%;
+}
+.biohoz {
+	float: left;
+    display: block;
+    font-size: 160%;
+    color: white;
+    margin-left: -36%;
+    margin-top: 5%;
+    top: -33%;
+}
+.biostrokes {
+	float: right;
+    display: block;
+    font-size: 160%;
+    color: white;
+    margin-right: 35%;
+    margin-top: 4%;
+    top: -33%;
+}
+.maptitle {
+	
+}
+.ee{
+	display: block;
+	background-color: #beb6db;
+	position: absolute;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wc{
+	display: block;
+	background-color: #beb6db;
+	position: absolute;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sd{
+	display: block;
+	background-color: #beb6db;
+	position: absolute;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ct {
+	display: block;
+	background-color: #beb6db;
+	position: absolute;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ft {
+	background-color: #beb6db;
+	position: absolute;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container {
+	background-color: #beb6db;
+	padding: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	top: 0px;
+}
+.s2004 {
+	display: inline-block;
+	width: 150%;
+	float: left;
+	padding: 5px;
+	margin-left: 50%;
+}
+
+.s2006 {
+	display: inline-block;
+	width: 150%;
+	padding: 5px;
+	margin-right: 50%;
+	clear: right;
+}
+
+.s2009 {
+	display: inline-block;
+	width: 150%;
+	float: left;
+	padding: 5px;
+	margin-left: 50%;
+}
+
+.s2011 {
+	display: inline-block;
+	width: 150%;
+	padding: 5px;
+	margin-right: 50%;
+	clear: right;
+}
+
+.s2014 {
+	display: inline-block;
+	width: 150%;
+	float: left;
+	padding: 5px;
+	margin-left: 50%;
+}
+.s2016 {
+	display: block;
+	width: 150%;
+	clear: right;
+	padding: 5px;
+	margin-right: 50%;
+
+}
+.lads {
+    width: 29%;
+}
+.info2004 {
+	float: left;
+    display: block;
+    font-size: 100%;
+    color: white;
+    margin-left: -36%;
+    margin-top: 4%;
+    top: -33%;
+}
+.info2006 {
+	float: right;
+    display: inline-block;
+    font-size: 100%;
+    color: white;
+    margin-right: 36%;
+    margin-top: 5%;
+    top: -33%;
+}
+.info2009 {
+	float: left;
+    display: block;
+    font-size: 100%;
+    color: white;
+    margin-left: -36%;
+    margin-top: 5%;
+    top: -33%;
+}
+.info2011 {
+	float: right;
+    display: block;
+    font-size: 100%;
+    color: white;
+    margin-right: 35%;
+    margin-top: 4%;
+    top: -33%;
+}
+.info2014 {
+	float: left;
+    display: block;
+    font-size: 100%;
+    color: white;
+    margin-left: -36%;
+    margin-top: 5%;
+    top: -33%;
+	
+}
+.info2016 {
+	float: right;
+    display: block;
+    font-size: 100%;
+    color: white;
+    margin-right: 35%;
+    margin-top: 4%;
+    top: -33%;
+}
+.column6 {
+  float: left;
+  margin-top: 70px;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row6::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.tents {
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+input[type="text"] {
+	display: inline-block;
+	margin: 3px 10px;
+	width: 150px;
+	
+}
+input[type="email"] {
+	display: inline-block;
+	margin: 3px 10px;
+	width: 150px;
+	
+}
+form {
+	background-color: #beb6db;
+}
+legend {
+	color: black;
+}
+body form input {
+    width: 25%;
+    clear: both;
+    text-align: center;
+    margin-left: 172px;
+}
+#carousel1 {
+	margin-top: 26px;
+}
+
+@media (max-width: 650px){
+	div {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		float: none;
+	}
+	
+	p{
+		font-size: large;
+	}
+	.row6 {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		float: none;
+	}
+	.column {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		float: none;
+	}
+	.column2 {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		float: none;
+	}
+	.column3 {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		float: none;
+	}
+	.mapban {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		float: none;
+	}
+	.column6 {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		float: none;
+	}
+	.blueban {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.line {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.food {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.camp {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.ticketban {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+	display: block;
+}
+.histban {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+	display: block;
+}
+.mapban {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+#Bands {
+	display: block;
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.band1975 {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.sbutton {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.bandfm {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.sbutton2 {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.bandhoz {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.sbutton3 {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.bandstokes {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.sbutton4 {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+
+.bio1975 {
+  width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.fmbio {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.biohoz {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.biostrokes {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+	.poster {
+		width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+	}
+}
